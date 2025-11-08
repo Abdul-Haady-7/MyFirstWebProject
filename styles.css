@@ -1,0 +1,71 @@
+html, body {
+  height: 100%;
+}
+body {
+  font-family: "Arial", sans-serif;
+  background-color: grey; 
+  display: flex;
+  align-items: flex-start;    
+  justify-content: center;   
+  padding-top: 90px;              
+}
+
+
+.bigdiv {              
+  background: white;        
+  padding: 12px;              
+  height: 800px;
+  width: 1500px;
+  box-sizing: border-box;
+}
+
+.titlediv {
+    padding: 7px; 
+    width: 1465px;             
+    background: rgba(110, 235, 235, 0.89);                 
+    height: 100px;
+    box-sizing: border-box;
+  }
+
+  .title1{
+        text-align: right;
+        color: rgb(8, 124, 99);             
+        font-size: 27px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+  }
+
+  .sub-title1{
+    text-align: right;
+    color: rgb(8, 124, 99);             
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.friends {
+    float: left;
+    margin: 10px;
+    padding: 7px; 
+    width: 200px;             
+    background: rgba(11, 216, 199, 0.89);                 
+    height: 200px;
+    box-sizing: border-box;
+  }
+
+  .title2{
+    border: 10px;
+    text-align: center;
+    color: rgb(8, 124, 99);             
+    font-size: 27px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.friend1{
+    text-align: center;
+    color: rgb(228, 71, 66);             
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
